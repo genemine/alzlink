@@ -10,11 +10,13 @@ Assuming that you are in the folder of iREAD, just run the following command and
 ```bash
  python train_and_test.py
 ```
+**Note**: the three modules which are pandas, numpy and sklearn need to be installed to run the script.<br>
+
 After running the script, the prediction results will be saved to the file named 'prediction.txt', in which each row contains a gene and the predicted probabilistic score ranging from 0 and 1 that measures the likelihood for the gene to be associated with AD.
 
 
 # 3. Contact
-  If you have any questions, please contact us:
+  If you have any questions, please contact us:<br>
     Cuixiang Lin, lincxcsu@csu.edu.cn <br>
     Jianxin Wang, jxwang@mail.csu.edu.cn<br>
     
