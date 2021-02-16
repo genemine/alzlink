@@ -1,32 +1,20 @@
 # 1. Description
-This repository provides source codes to build the model to predict AD-associated genes.
+This repository provides source codes to build the model for predicting AD-associated genes and to make predictions.
 
 
 # 2. Usage
-(1) After this repository is downloaded, make sure to unzip the **mat2pred.txt.zip** folder, which contains feature matrix of unlabeled genes to predict. <br>
-(2) We have created a python script, named 'train_and_predict.py', which includes all source codes to build 
-
-
-
-Using iREAD is very simple. Only one command needs to be issued form command line, and you would be able to identify IR events from RNA-seq data. For illustration purpose, we have included a test BAM file and a intron coordinate text file along with the iREAD package for testing the package. After you unzip the source package, you should see two folders inside: one is **data** containing test data, the other is **meta** containing text files of intron coordinates for mouse (Ensembl ver75) and human(Ensembl ver77), respectively.
-<br><br>
-To run the iREAD for IR detection, assuming that you are in the folder of iREAD, just issue the following command from shell:
+(1) After this repository is downloaded and unzipped, go into the folder. Then, make sure to unzip the **mat2pred.txt.zip** folder, which contains feature matrix of unlabeled genes to predict. <br>
+(2) We have created a python script, named 'train_and_predict.py', which includes all source codes (i) to build the model for predicting AD-associated genes and (ii) to make predictions.
+<br>
+Assuming that you are in the folder of iREAD, just run the following command and you will be able to built a model and make predictions:
 ```bash
- python demo.py
+ python train_and_test.py
 ```
+After running the script, the prediction results will be saved to the file named 'prediction.txt', in which each row contains a gene and the predicted probabilistic score ranging from 0 and 1 that measures the likelihood for the gene to be associated with AD.
 
 
-
-AD gene prediction
-  (unzip a zip file in data file first)
-
-1. Building models for AD gene prediction
-Note 1: In the first line of the BASH, PERL and Python scripts in ADGenePred, the path for BASH, PERL and Python is set as follows by default:
-
-    python demo.py
-
-2. Contact
-  If you have any questions, please contact at:
-
-    Cuixiang Lin, lincxcsu@csu.edu.cn
+# 3. Contact
+  If you have any questions, please contact us:
+    Cuixiang Lin, lincxcsu@csu.edu.cn <br>
+    Jianxin Wang, jxwang@mail.csu.edu.cn<br>
     
