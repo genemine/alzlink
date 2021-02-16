@@ -1,5 +1,5 @@
 # 1. Description
-This repository provides source codes to build the model for predicting AD-associated genes and to make predictions.
+This repository provides source codes to build the model for predicting AD-associated genes and to make predictions. The model is built using ExtraTree. The feature vectors of training and test genes are extracted from the brain gene network in the BaiHui database, which is available at https://github.com/genemine/BaiHui.
 
 
 # 2. Usage
