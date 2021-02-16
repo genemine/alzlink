@@ -38,7 +38,7 @@ score.index=mat2pred.index
 
 times=100
 for i in range(times):
-    print('step:'+str(i))
+    print('Iteration: '+str(i)+'/'+str(times))
     index=random.sample(list(data.index),len(data.index))
     data_new=data.loc[index,:]
     X=data_new.iloc[:,0:-1]
