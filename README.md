@@ -3,7 +3,8 @@ This repository provides source codes to build the model for predicting AD-assoc
 
 
 # 2. Usage
-(1) After this repository is downloaded and unzipped, go into the folder. Then, make sure to unzip the **mat2pred.txt.zip** folder, which contains feature matrix of unlabeled genes to predict. <br>
+(1) After this repository is downloaded and unzipped, go into the folder. Then, make sure to unzip the **mat2pred.txt.zip** folder, which contains feature matrix of unlabeled genes to predict. <br><br>
+
 (2) We have created a python script, named 'train_and_predict.py', which includes all source codes (i) to build the model for predicting AD-associated genes and (ii) to make predictions.
 <br>
 Assuming that you are currently in the downloaded folder, just run the following command and you will be able to built a model and make predictions:
