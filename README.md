@@ -11,7 +11,7 @@ Assuming that you are currently in the downloaded folder, just run the following
 ```bash
  python train_and_test.py
 ```
-**Note**: The three modules, which are pandas, numpy and sklearn, need to be installed before running the script.<br>
+**Note**: The three modules, which are **pandas, numpy and sklearn**, need to be installed before running the script.<br>
 
 (3) After running the script, the prediction results will be saved to the file named 'prediction.txt', in which each row contains a gene and the predicted probabilistic score ranging from 0 and 1 that measures the likelihood for the gene to be associated with AD.
 
